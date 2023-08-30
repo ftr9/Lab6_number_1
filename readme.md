@@ -1,14 +1,59 @@
 ## Create a user control form in window form to compare the numbers and create a test case as well;
 
-# Step-1 - Draw this
+# Step-1 - Write this first
 
-![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/cf1982f5-4a42-4597-be77-cd9d5f39ce0c)
+```
+namespace Number1
+{
+    partial class Form1
+    {
+        private System.ComponentModel.IContainer components = null;
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-# Step-2 - Write this first
+        #region Windows Form Designer generated code
 
-![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/b195d265-379e-484c-9d90-5921d4e32868)
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            userControl11 = new UserControl1();
+            SuspendLayout();
+            //
+            // userControl11
+            //
+            userControl11.Location = new Point(12, 21);
+            userControl11.Name = "userControl11";
+            userControl11.Size = new Size(1135, 377);
+            userControl11.TabIndex = 0;
+            //
+            // Form1
+            //
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1165, 450);
+            Controls.Add(userControl11);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+        }
 
-# Step-3 - Write this
+        #endregion
+
+        private UserControl1 userControl11;
+    }
+}
+```
+
+# Step-2 - Write this
 
 ```
 namespace Number1
@@ -149,6 +194,10 @@ namespace Number1
 }
 ```
 
+# Step - 3 - Draw this
+
+![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/ba1ee934-a077-4adf-93c4-2bb56aae2988)
+
 # Step-4- Write this
 
 ```
@@ -213,4 +262,4 @@ namespace Number1
 
 # Step-5 - Draw this - Jatha haru number chai different lekha hai
 
-![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/73cbe8ba-6c20-406b-900d-03d31a4e767f)
+![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/249a5286-a1c2-4948-8bc4-bf82137e5214)
