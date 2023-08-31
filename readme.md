@@ -1,6 +1,6 @@
 ## Create a user control form in window form to compare the numbers and create a test case as well;
 
-# Step-1 - Write this first
+# Step-1 - Write this in Form1.Designer.cs file
 
 ```
 namespace Number1
@@ -53,7 +53,7 @@ namespace Number1
 }
 ```
 
-# Step-2 - Write this
+# Step-2 - Write this in UserControl1.Designer.cs
 
 ```
 namespace Number1
@@ -198,7 +198,7 @@ namespace Number1
 
 ![image](https://github.com/ftr9/Lab6_number_1/assets/60734475/ba1ee934-a077-4adf-93c4-2bb56aae2988)
 
-# Step-4- Write this
+# Step-4- Write this in UserControl1.cs file
 
 ```
 namespace Number1
